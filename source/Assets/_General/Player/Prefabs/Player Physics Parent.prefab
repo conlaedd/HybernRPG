@@ -1155,15 +1155,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   head: {fileID: 21300000, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
-  shoulder1: {fileID: 21300002, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
-  shoulder2: {fileID: 21300004, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
-  forearm1: {fileID: 21300006, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
-  forearm2: {fileID: 21300008, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
+  shoulder1: {fileID: 21300004, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
+  shoulder2: {fileID: 21300002, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
+  forearm1: {fileID: 21300008, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
+  forearm2: {fileID: 21300006, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
   torso: {fileID: 21300018, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
-  thigh1: {fileID: 21300010, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
-  thigh2: {fileID: 21300012, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
-  calf1: {fileID: 21300014, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
-  calf2: {fileID: 21300016, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
+  thigh1: {fileID: 21300012, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
+  thigh2: {fileID: 21300010, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
+  calf1: {fileID: 21300016, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
+  calf2: {fileID: 21300014, guid: 8fd0e2693f61ac44c9be94954509844a, type: 3}
   shoulder1Pickaxe: {fileID: 21300000, guid: 4f4b2cf0f49f0044d8e15177f2ac1346, type: 3}
   shoulder2Pickaxe: {fileID: 21300000, guid: 4f4b2cf0f49f0044d8e15177f2ac1346, type: 3}
   shoulder2Shield: {fileID: 21300000, guid: abb849e211637b045b8a3b60b3d6a7ed, type: 3}

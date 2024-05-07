@@ -1,18 +1,18 @@
 fileFormatVersion: 2
-guid: 7698bfa6422d7d74eb7679c479a692d3
+guid: d3535078c3fbd8940b354477707506b9
 TextureImporter:
   fileIDToRecycleName:
-    21300000: head-cultist
-    21300002: shoulder2-cultist
-    21300004: shoulder1-cultist
-    21300006: torso-cultist
-    21300008: forearm2-cultist
-    21300010: forearm1-cultist
-    21300012: thigh2-cultist
-    21300014: thigh1-cultist
-    21300016: cultist_30
-    21300018: calf2-cultist
-    21300020: calf1-cultist
+    21300000: CultHead
+    21300002: cultShoulderL
+    21300004: cultShoulderR
+    21300006: mutantCultist_0
+    21300008: cultThighL
+    21300010: cultThighR
+    21300012: cultFootR
+    21300014: cultfootL
+    21300016: mutantCultist_1
+    21300018: cultHandL
+    21300020: cultHandR
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -54,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 104.4979
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,21 +90,21 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: head-cultist
+      name: CultHead
       rect:
         serializedVersion: 2
-        x: 14
+        x: 13
         y: 65
-        width: 31
+        width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.44096178, y: 0.04409298}
+      pivot: {x: 0.4893248, y: 0.05163765}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: shoulder2-cultist
+      name: cultShoulderL
       rect:
         serializedVersion: 2
         x: 0
@@ -112,13 +112,13 @@ TextureImporter:
         width: 14
         height: 20
       alignment: 9
-      pivot: {x: 0.7050314, y: 0.7701591}
+      pivot: {x: 0.73180664, y: 0.79036826}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: shoulder1-cultist
+      name: cultShoulderR
       rect:
         serializedVersion: 2
         x: 46
@@ -126,13 +126,13 @@ TextureImporter:
         width: 14
         height: 20
       alignment: 9
-      pivot: {x: 0.3543576, y: 0.8160448}
+      pivot: {x: 0.2803944, y: 0.7818281}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: torso-cultist
+      name: mutantCultist_0
       rect:
         serializedVersion: 2
         x: 15
@@ -146,69 +146,69 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: forearm2-cultist
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 26
-        width: 13
-        height: 16
-      alignment: 9
-      pivot: {x: 0.7050314, y: 0.8277065}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: forearm1-cultist
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 25
-        width: 13
-        height: 18
-      alignment: 9
-      pivot: {x: 0.2556798, y: 0.8160448}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: thigh2-cultist
+      name: cultThighL
       rect:
         serializedVersion: 2
         x: 15
         y: 19
         width: 15
         height: 9
-      alignment: 9
-      pivot: {x: 0.485062, y: 0.8236501}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: thigh1-cultist
+      name: cultThighR
       rect:
         serializedVersion: 2
         x: 31
         y: 19
         width: 15
         height: 9
-      alignment: 9
-      pivot: {x: 0.4701246, y: 0.8485463}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cultist_30
+      name: cultFootR
       rect:
         serializedVersion: 2
-        x: 48
-        y: 13
-        width: 12
-        height: 12
+        x: 31
+        y: 0
+        width: 15
+        height: 18
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cultfootL
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 15
+        height: 18
+      alignment: 9
+      pivot: {x: 0.488613, y: 0.91752297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mutantCultist_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 19
+        width: 15
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,29 +216,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: calf2-cultist
+      name: cultHandL
       rect:
         serializedVersion: 2
-        x: 15
-        y: 0
-        width: 15
-        height: 18
+        x: 0
+        y: 26
+        width: 13
+        height: 16
       alignment: 9
-      pivot: {x: 0.4999997, y: 0.910787}
+      pivot: {x: 0.7102212, y: 0.8095839}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: calf1-cultist
+      name: cultHandR
       rect:
         serializedVersion: 2
-        x: 31
-        y: 0
-        width: 15
-        height: 18
+        x: 47
+        y: 27
+        width: 13
+        height: 16
       alignment: 9
-      pivot: {x: 0.5149376, y: 0.9356833}
+      pivot: {x: 0.2109463, y: 0.8416095}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
