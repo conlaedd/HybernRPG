@@ -440,7 +440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af330e1cb8c6e16469c70210619e1f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  music: {fileID: 8300000, guid: 24434ad48d72b12458d9a010afb6d83c, type: 3}
+  music: {fileID: 8300000, guid: bd872d622fc17124d968b3ba700e0603, type: 3}
 --- !u!4 &166939970
 Transform:
   m_ObjectHideFlags: 0
@@ -1332,6 +1332,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114966502612199122, guid: 3c5af0783332efe42bbc66454a0cdc2a,
+        type: 2}
+      propertyPath: sounds.Array.data[9].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 37b97b507bbf9554dad98a450b76262b, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3c5af0783332efe42bbc66454a0cdc2a, type: 2}
   m_IsPrefabParent: 0
